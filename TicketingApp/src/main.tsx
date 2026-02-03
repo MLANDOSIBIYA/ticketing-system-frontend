@@ -1,0 +1,16 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.tsx'
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
+// Import Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css'
+// Import our custom CSS (after Bootstrap to override if needed)
+import './index.css'
+
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
